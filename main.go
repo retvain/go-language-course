@@ -1,17 +1,11 @@
 package main
 
-import (
-	"fmt"
-)
-
-func mars_age(a int) float64 {
-	var earthDays, marsAge int
-	earthDays = a * 365
-	marsAge = earthDays / 687
-
-	return float64(marsAge)
-}
+import "fmt"
 
 func main() {
-	fmt.Println(mars_age(1000))
+	var x, y float32
+	y = 1
+	fmt.Scanf("%f", &x)
+	output := x + y
+	fmt.Println(output)
 }
